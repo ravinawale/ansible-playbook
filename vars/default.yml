@@ -1,0 +1,5 @@
+app_user: "ubuntu"
+http_host: "myweb"
+http_conf: "apache.conf"
+http_port: "80"
+disable_default: true
