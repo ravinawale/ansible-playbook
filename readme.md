@@ -1,7 +1,6 @@
 # Apache on Ubuntu 
 
-This playbook will install the Apache 2 web server on an Ubuntu machine, as explained in the guide on 
-A virtualhost will be created with the options specified in the `vars/default.yml` variable file.
+This playbook will install the Apache 2 web server on an Ubuntu machine.
 
 ## Settings
 
@@ -14,12 +13,10 @@ A virtualhost will be created with the options specified in the `vars/default.ym
 
 ## Running this Playbook
 
-Quick Steps:
-
 ### 1. Obtain the playbook
 ```shell
-git clone https://github.com/do-community/ansible-playbooks.git
-cd ansible-playbooks/apache_ubuntu1804
+git clone https://github.com/ravinawale/ansible-playbook.git
+cd ansible-playbook
 ```
 
 ### 2. Customize Options
